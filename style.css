@@ -105,7 +105,7 @@ p {
 }
 
 .hero {
-	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url("/Users/Kate/Desktop/Kates-portfolio-page/images/Hero.jpeg");
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url("./images/Hero.jpeg");
 	height: 50%;
     background-position: center;
 	background-repeat: no-repeat;
