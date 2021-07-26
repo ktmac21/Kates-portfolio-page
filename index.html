@@ -4,102 +4,123 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Eagles' Portfolio Page</title>
-    <!-- <link rel="stylesheet" href="./assets/css/reset.css"/>      -->
-    <link rel="stylesheet" href="./assets/css/style.css"/>
-   
-    
+    <title>Eagles Portfolio Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="precon   nect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5ba7095a69.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+
 </head>
 
 <body>
-        <header>
-            <nav>
-                <ul>
-                    <li class="hover"><a href="#about-me">About me</a></li>
-                    <li class="hover"><a href="#my-projects">My projects</a></li>
-                    <li class="hover"><a href="#contact-me">Contact me</a></li>
-                </ul>
-            </nav>
-        </header>
+    <nav class="custom-navfoot">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Coding<i class="material-icons">code</i></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#my-projects"">My Projects</a></li>
+                <li class=" active"><a href="#contact-me">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="my-projects">My Projects</a></li>
+        <li><a href="#contact-me">Contact me</a></li>
+        <li><a href="">My Resume</a></li>
 
-        <main>
-            <div class="hero">
-                <div class= "hero-contents">
-                    <h1>Full Stack Web Development</h1>
+    </ul>
+
+    <div class="parallax-container">
+        <div class="parallax responsive-img"><img src="assets/images/fullstack.jpg"></div>
+    </div>
+    
+    <div class="section white">
+        <div class="row container">
+            <div class="card horizontal small custom-card">
+                <div class="card-image">
+                    <img class="activator responsive-img" src="./assets/images/icon.png">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4"><i
+                                class="material-icons right">more_vert</i></span>
+                        <h5 class="center activator">About Me</h5>
+                    </div>
+                    <div class="card-action">
+                        <a href="#my-resume">My Resume</a>
+                    </div>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text center text-darken-4">Kate Eagles<i
+                            class="material-icons right">close</i></span>
+                    <p>I am currently a student of Penn's coding bootcamp. I have many years experience in the
+                        corporate
+                        world
+                        but am now making a jump into the challenging and exciting world of tech, specifically
+                        full
+                        stack
+                        web development. Take a look at my current
+                        projects. If you would like to know more about my experience and projects please don't
+                        hesitate
+                        to
+                        contact me!</p>
                 </div>
             </div>
+
             
-            <section>
-                <aside>
-                    <h2 id="about-me">About me</h2>
-                    <img id="profile-pic" src="./assets/images/profile-pic.jpeg" alt="Profile pic" width="250" height="300">
-                </aside>
 
-                <p>
-                    I am currently a student of Penn's coding bootcamp. I have many years experience in the corporate
-                    world
-                    but am now making a jump into the challenging and exciting world of tech, specifically full stack
-                    web development. Take a look at my current
-                    projects. If you would like to know more about my experience and projects please don't hesitate to
-                    contact me!
-                </p>
+        </div>
+    </div>
+    
+    <div class="parallax-container">
+        <div class="parallax responsive-img"><img src="assets/images/coding.jpg"></div>
+    </div>
 
-            </section>
-
-            <section>
-                <aside>
-                    <h3 id="my-projects">My projects</h3>
-                </aside>
-
-                <div class="container">
+    </section>
 
 
-                    <div class="image" ><img id="big-image" src="./assets/images/photo4.jpeg" alt="Project 1">
-                        <div class="text-block">
-                            <h4>Project coming soon!</h4>
-                        </div>
-                    </div>
-                    <div id="sub-container">
-                    
-                    <div class="image"><img class="small-image" src="./assets/images/photo5.png" alt="Project 2">
-                        <div class="text-block">
-                            <h4>Project coming soon!</h4>
-                        </div>
 
-                    </div>
 
-                    <div class="image"><img class="small-image" src="./assets/images/photo1.png" alt="Project 3">
-                        <div class="text-block">
-                            <h4>Project coming soon!</h4>
-                        </div>
-                    </div>
 
-                    <div class="image"><img class="small-image" src="./assets/images/photo2.jpeg" alt="Project 4">
-                        <div class="text-block">
-                            <h4>Project coming soon!</h4>
-                        </div>
-                    </div>
-                </div>
-                </div>
+    <footer class="page-footer custom-navfoot">
+        <div class="container">
 
-            </section>
 
-            <header class="flex">
+            <h5 class="white-text center">Contact Me</h5>
+            <ul class="center inline">
+                <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/kate-eagles"><i
+                            class="fab fa-linkedin fa-2x"></i></a></li>
+                <li><a class="grey-text text-lighten-3" href="tel:2676700941"><i class="material-icons">call</i></a>
+                </li>
+                <li><a class="grey-text text-lighten-3" href="https://github.com/ktmac21"><i
+                            class="fab fa-github fa-2x"></i></a></li>
+                <li><a class="grey-text text-lighten-3" href="mailto:kteagles21@gmail.com"><i
+                            class="material-icons">email</i></a></li>
+            </ul>
 
-                <aside>
-                    <h5 id="contact-me">Contact me:</h5>
-                </aside>
 
-                <a href="mailto:kteagles21@gmail.com">kteagles21@gmail.com</a>
-                <a href="tel:2676700941">Phone</a>
-                <a href="https://github.com/ktmac21">Github</a>
-                <a href="https://www.linkedin.com/in/kate-eagles">LinkedIn</a>
+        </div>
+        <div class="footer-copyright center">
+            <div class="container">
+                © 2021 Eagles Designs
 
-            </header>
-        </main>
+            </div>
+        </div>
+    </footer>
 
-        <footer>
-            2021 Eagles Designs
-        </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./script.js"></script>
+
 
 </body>
