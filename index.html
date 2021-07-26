@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="precon   nect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5ba7095a69.js" crossorigin="anonymous"></script>
 
@@ -33,60 +33,47 @@
     </nav>
     <ul class="sidenav" id="mobile-demo">
         <li><a href="#about-me">About me</a></li>
-        <li><a href="my-projects">My Projects</a></li>
+        <li><a href="#my-projects">My Projects</a></li>
         <li><a href="#contact-me">Contact me</a></li>
         <li><a href="">My Resume</a></li>
 
     </ul>
 
-    <div class="parallax-container">
-        <div class="parallax responsive-img"><img src="assets/images/fullstack.jpg"></div>
-    </div>
-    
-    <div class="section white">
-        <div class="row container">
-            <div class="card horizontal small custom-card">
-                <div class="card-image">
-                    <img class="activator responsive-img" src="./assets/images/icon.png">
-                </div>
-                <div class="card-stacked">
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4"><i
-                                class="material-icons right">more_vert</i></span>
-                        <h5 class="center activator">About Me</h5>
-                    </div>
-                    <div class="card-action">
-                        <a href="#my-resume">My Resume</a>
-                    </div>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text center text-darken-4">Kate Eagles<i
-                            class="material-icons right">close</i></span>
-                    <p>I am currently a student of Penn's coding bootcamp. I have many years experience in the
-                        corporate
-                        world
-                        but am now making a jump into the challenging and exciting world of tech, specifically
-                        full
-                        stack
-                        web development. Take a look at my current
-                        projects. If you would like to know more about my experience and projects please don't
-                        hesitate
-                        to
-                        contact me!</p>
-                </div>
+
+
+
+
+    <section class="container">
+        <div class="card center">
+            <div class="card-image">
+                <img src="./assets/images/fullstack.jpg">
+                <span class="card-title">About me</span>
             </div>
-
-            
-
+            <div class="card-content">
+                <p id="about-me">I am currently a student of University of Penn's coding bootcamp. I have many years
+                    experience in the
+                    corporate world but am now making a jump into the challenging and exciting world of tech,
+                    specifically
+                    full stack web development. Take a look at my current projects below. If you would like to
+                    know more about
+                    my experience and projects please don't hesitate to contact me.</p>
+            </div>
+            <div class="card-action">
+                <a id="resume" href="#resume">My Resume</a>
+            </div>
         </div>
-    </div>
-    
-    <div class="parallax-container">
-        <div class="parallax responsive-img"><img src="assets/images/coding.jpg"></div>
-    </div>
 
+        <h4 class="center-align" id="my-projects">My Projects</h4>
+
+        <div class="carousel">
+            <a class="carousel-item color" href="https://ktmac21.github.io/java-quiz/"><img src="./assets/images/quiz.png" height="300">Javacript
+                Quiz</a>
+            <a class="carousel-item color" href="https://ktmac21.github.io/weather-dash/"><img src="./assets/images/weather.png" height="300">Weather
+                Dash</a>
+            <a class="carousel-item color" href="https://shobes572.github.io/Whats_Streamin/"><img src="./assets/images/streamin.png" height="300"> What's
+                Streamin'</a>
+        </div>
     </section>
-
 
 
 
@@ -95,7 +82,7 @@
         <div class="container">
 
 
-            <h5 class="white-text center">Contact Me</h5>
+            <h5 class="white-text center" id="contact-me">Contact Me</h5>
             <ul class="center inline">
                 <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/kate-eagles"><i
                             class="fab fa-linkedin fa-2x"></i></a></li>
