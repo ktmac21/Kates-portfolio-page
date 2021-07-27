@@ -4,8 +4,12 @@
 }
 
 
-
-.custom-navfoot {
+nav {
+    background-color: white;
+    box-shadow: none;
+    
+}
+.custom-foot {
     background-color: #261132; 
     
     
@@ -16,14 +20,14 @@
 
 .inline {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
     
 }
 .flex {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap; 
+    justify-content:center;
+     
 }
 
 .custom-card {
@@ -34,6 +38,12 @@
 
 nav i.material-icons {
     font-size: 50px; 
+    color: black; 
+}
+nav ul a {
+    color: black; 
+    font-size: 20px; 
+    padding-bottom: 0;
 }
   
 
@@ -52,11 +62,10 @@ nav i.material-icons {
      
 }
 .sidenav {
-    height: 25%;
+    height: 30%;
     width: 150px;
     text-align: center;
-    background-color: rgb(121, 89, 121);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .color {
