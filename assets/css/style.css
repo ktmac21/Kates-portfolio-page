@@ -1,25 +1,117 @@
 * {
-    font-family: 'Cormorant', serif;;
+    font-family: monospace;
     
 }
-
 
 nav {
-    background-color: white;
-    box-shadow: none;
-    
-}
-.custom-foot {
-    background-color: #261132; 
-    
-    
-    
-    
-}
-p {
-    font-size: 20px;
+    background-color:rgb(193, 235, 252); 
 }
 
+nav ul a {
+    color: black; 
+    font-size: 18px; 
+    padding-bottom: 0;
+}
+
+nav a {
+    color: black;   
+}
+
+.grass{
+    
+    height: 20px;
+    width: 100%;
+    background-color: green;
+}
+
+.road {
+    border: 2px solid black;
+    background-color: grey;
+    height: 150px;
+    width: 100%;
+}
+.line {
+    border-bottom: 3px dashed white;
+    height: 75px; 
+    width: 100%; 
+    position: absolute;
+
+
+    
+    
+}
+.image {
+    position: absolute;
+    animation-name: walk;
+    animation-duration: 10s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+    animation-timing-function: linear;
+   
+}
+    
+@keyframes walk{
+    from{ transform: translateX(-200px)}
+    to{ transform: translateX(1600px)}
+
+}
+
+p {
+    font-size: 16px;
+}
+
+#resume {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    background-color: white;
+}
+    
+.sidenav li>a {
+    color: black;
+    font-size: 12px;
+     
+}
+.sidenav {
+    padding-top: 35px;
+    height: 25%;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(193, 235, 252);
+}
+
+
+.card {
+
+    text-align: center;
+    font-size: 20px; 
+    background-color: rgb(193, 235, 252);
+    color: black;
+    width: 350px;
+    
+}
+
+.circle {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    border: black 2px solid; 
+    height: 100px;
+    width: 100px; 
+    border-radius: 50px;
+    color: black;
+    margin-bottom: 20px;
+    background-color: rgb(193, 235, 252);
+}
+
+a {
+    display: flex;
+    justify-content: space-evenly;
+    color: black; 
+    text-align: center;
+}
 
 .inline {
     display: flex;
@@ -29,54 +121,18 @@ p {
 .flex {
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content:space-evenly;
      
 }
-
-.custom-card {
-    height: 300px;
-    width: 500px; 
-    
-}
-
-nav i.material-icons {
-    font-size: 50px; 
-    color: black; 
-}
-nav ul a {
-    color: black; 
-    font-size: 20px; 
-    padding-bottom: 0;
-}
-  
-
-.carousel .carousel-item {
-    height: 300px; 
-    width: 200px;
-}
-
-#resume {
-    color: rgb(136, 26, 136);
-    text-align: center;
-    font-size: 15px;
-}
-    
-.sidenav li>a {
+.page-footer {
+    background-color: grey;
     color: black;
-    font-size: 18px;
-     
 }
-.sidenav {
-    height: 30%;
-    width: 150px;
-    text-align: center;
-    border-radius: 5px;
+.eagles-color {
+    color: black;
+    background-color: green;
+    height: 50px;
+    width: 100%;
+    padding: 0; 
+    box-shadow: none;
 }
-
-.color {
-    color:black;
-    text-align: center;
-    font-size: 18px;
-}
-
-
