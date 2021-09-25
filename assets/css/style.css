@@ -5,9 +5,12 @@
 
 body {
     background-color: cornsilk;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
-.content {
+main {
     flex: 1 0 auto; 
 }
 nav {
@@ -142,7 +145,7 @@ p {
     background-color: grey;
     color: black;
     padding-top: none; 
-    flex-shrink: 0; 
+ 
 }
 .eagles-color {
     
