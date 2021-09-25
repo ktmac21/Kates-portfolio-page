@@ -42,7 +42,7 @@ Click on the coins to view a project
 
 https://opensource.org/licenses/MIT
 
-## Contributors:
+## Contributions:
 
 No other contributors at this time
 
