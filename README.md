@@ -5,4 +5,4 @@ This was my first real attempt at implementing my knowledge of HTML and CSS. Sin
 
 URL  https://ktmac21.github.io/Kates-portfolio-page/
 
-![](assets/images/portfolio.png)
+![](assets/images/portfolioGif.mp4)
