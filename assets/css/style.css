@@ -49,9 +49,10 @@ nav a {
 
 .mario-me {
     position: absolute;
-    left: 200px; 
+    top: 100px;
+    left:0px;   
     animation-name: drive;
-    animation-duration: 10s;
+    animation-duration: 6s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-direction: forward;
@@ -61,19 +62,36 @@ nav a {
 
  .shells { 
     position: absolute;
-    top: 100px; 
+    top: 60px; 
     left: 0px; 
     animation-name: drive;
-    animation-duration: 10s;
+    animation-duration: 8s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-direction: forward;
     animation-timing-function: linear;
 }
+
+.clouds {
+    position: absolute;
+    left: 80px; 
+    animation-name: float;
+    animation-duration: 30s;
+    animation-fill-mode:both;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes float{
+    from{ transform: translateX(100px)}
+    to{ transform: translate(300px)}
+    
+}
     
 @keyframes drive{
     from{ transform: translateX(-100px)}
-    to{ transform: translateX(1600px)}
+    to{ transform: translateX(1200px)}
 
 }
 
