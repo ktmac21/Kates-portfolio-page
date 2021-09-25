@@ -5,7 +5,7 @@
 ## Table of Contents
 
 * [Description](#Description)
-* [Installation](#Installation)
+* [Link](#Installation)
 * [Usage](#Usage)
 * [License](#License)
 * [Contributions](#Contributions)
@@ -21,7 +21,9 @@ This was my first real attempt at implementing my knowledge of HTML and CSS. Sin
 
 https://user-images.githubusercontent.com/83046421/134783806-a6702d7a-d96f-4d80-847d-8d6b8618bafa.mp4
 
+## Link:
 
+https://ktmac21.github.io/Kates-portfolio-page/
 
 
 ## Technologies Used:
@@ -30,11 +32,6 @@ https://user-images.githubusercontent.com/83046421/134783806-a6702d7a-d96f-4d80-
 2. CSS
 3. Materialize
 4. Font Awesome
-
-
-## Installation:
-
-https://ktmac21.github.io/Kates-portfolio-page/
 
 ## Usage:
 
