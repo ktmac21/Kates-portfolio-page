@@ -6,6 +6,10 @@
 body {
     background-color: cornsilk;
 }
+
+.content {
+    flex: 1 0 auto; 
+}
 nav {
     background-color:rgb(193, 235, 252); 
 }
@@ -138,6 +142,7 @@ p {
     background-color: grey;
     color: black;
     padding-top: none; 
+    flex-shrink: 0; 
 }
 .eagles-color {
     
