@@ -20,14 +20,14 @@ nav {
 nav ul a {
     color: black; 
     font-size: 18px; 
-    padding-bottom: 0;
+    
 }
 
 nav a {
     color: black;   
 }
 
-.grass{
+.grass {
     
     height: 20px;
     width: 100%;
@@ -45,14 +45,10 @@ nav a {
     height: 55px; 
     width: 100%; 
     position: absolute;
-
-
-    
-    
 }
+
 .mario-me {
     position: absolute;
-    
     left: 200px; 
     animation-name: drive;
     animation-duration: 10s;
@@ -107,7 +103,6 @@ p {
     background-color: rgb(193, 235, 252);
 }
 
-
 .card {
 
     text-align: center;
@@ -144,7 +139,7 @@ p {
     border: solid black 2px;
     background-color: grey;
     color: black;
-    padding-top: none; 
+    
  
 }
 .eagles-color {
