@@ -19,7 +19,7 @@ This was my first real attempt at implementing my knowledge of HTML and CSS. Sin
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 
-[Screenshot] (https://watch.screencastify.com/v/VTu6S4Au5HnY6hYkR8t1)
+[![Watch](https://watch.screencastify.com/v/VTu6S4Au5HnY6hYkR8t1)]
 
 ## Technologies Used:
 
@@ -55,6 +55,6 @@ No tests at this time
 
 Please don't hesitate to reach out to any of the contributors on Github!
 
-[Kate Eagles](https://github.com/ktmac21)  
+![Kate Eagles](https://github.com/ktmac21)  
 
 
