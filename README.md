@@ -5,11 +5,10 @@
 ## Table of Contents
 
 * [Description](#Description)
-* [Link](#Installation)
+* [Link](#Link)
 * [Usage](#Usage)
 * [License](#License)
 * [Contributions](#Contributions)
-* [Reporting](#Reporting)
 * [Tests](#Tests)
 * [Questions](#Questions)
 
