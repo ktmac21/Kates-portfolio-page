@@ -110,37 +110,6 @@ nav a {
 }
 
 
-.typewriter-text {
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-    width: 16em;
-    border-right: 2px solid rgba(255, 255, 255, 0.75);
-    font-size: 30px;
-    white-space: nowrap;
-
-    animation: typewriter 6s steps(44) 1s 1 normal both, 
-                blinkCursor 400ms steps(44) infinite normal;
-}
-
-@keyframes typewriter {
-    from {
-        width: 0;
-    }
-    to {
-        width: 16em;
-    }
-}
-
-@keyframes blinkCursor {
-    from {
-        border-right-color: black; 
-    }
-
-    to {
-        border-right-color: transparent;
-    }
-}
     
 
 #about-me {
