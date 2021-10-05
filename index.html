@@ -6,12 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eagles Project Page</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5ba7095a69.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
 
 
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -19,53 +16,44 @@
 
 </head>
 
-<body class='content'>
+<body>
 
-
-    <nav>
-        <div class="nav-wrapper inline flex">
-
-            <img class='pipe' src='./assets/images/pipe.png' height='80px' width='80'>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#my-projects"">Projects</a></li>
-                <li><a href=" #contact-me">Connect</a></li>
-            </ul>
+    <header>
+        <div class='container'>
+            <h1>Kate Eagles</h1>
+            <h3>Full Stack Web Development</h3>
             <img class='clouds' src='./assets/images/clouds.png' height='50px' width='50'>
         </div>
-    </nav>
-
-
+    </header>
 
     <section>
 
-        <div class='grass'></div>
+        <div class='container1'>
+            <img class='pipe' src="./assets/images/pipe.png" height='75' width='75' alt='pipe'>
+        </div>
+
+
         <div class='road'>
             <div class='line'></div>
             <img class="mario-me" src="./assets/images/marioKate.png" height='100' width='100' alt='Kart'>
-            <img class="shells" src="./assets/images/shell.png" height='50' width='50' alt='Shell'>
+            <img class="shell" src="./assets/images/shell.png" height='50' width='50' alt='Shell'>
         </div>
 
 
     </section>
 
     <main>
-        <section class='container'>
-            <h2 class='center-align'>Kate Eagles</h2>
-            <h4 class='center-align'>Full Stack Web Development</h4>
+        <section>
 
-            <div class='container flex'>
-                <img src="./assets/images/flower.png" height='100' width='100' alt='Flower'>
-                <img src="./assets/images/flower.png" height='100' width='100' alt='Flower'>
-                <img src="./assets/images/flower.png" height='100' width='100' alt='Flower'>
-                <img src="./assets/images/flower.png" height='100' width='100' alt='Flower'>
-            </div>
+            <h2>About</h2>
+            
+            <div class='container2'>
 
-            <h5 id='about' class='center-align'>About</h5>
-
-            <div class='flex'>
-
-                <p id='about-me'>
+                
+                
+                <p class='card'>
+                    <img class="flower" src="./assets/images/flower.png" height='60' width='60' alt='flower'>
+                    <br>
                     Welcome to my portfolio page! I am from Perkasie, Pennsylvania which is right outside of
                     Philadelphia.
                     I am currently a student of University of Penn's Full Stack Development coding bootcamp.
@@ -73,81 +61,88 @@
                     technology. I approach any kind of change as an opportunity to grow.
                     I love coding and learning new technologies. I will never stop learning and challenging myself.
                     Take a look at my current projects below.
-                    If you want to learn more please don't hesitate to contact me.</p>
+                    If you want to learn more please don't hesitate to contact me.
+                    
+                    
+                    <a class="resume" href="EaglesResume.pdf" download="EaglesResume.pdf">Resume</a>
+
+                </p>
+                    
+                    
             </div>
-            <div id="resume">
-                <img id='mushroom' src="./assets/images/mushroom.png" height='100' width='100' alt='Flower'>
-                <a id="resume" href="EaglesResume.pdf" download="EaglesResume.pdf">Resume</a>
-
-            </div>
-
-
-
-            </div>
-
+                
         </section>
 
         <section>
 
-            <h5 class="center-align">Projects</h5>
+            
+            <h2>Projects</h2>
 
-            <br>
+            <div class='container2'>
+                
 
-            <div id='my-projects' class='flex'>
-                <div>
-                    <a href="https://fast-plateau-75151.herokuapp.com/"><img src='./assets/images/coin.png' height='110'
-                            width='125'></a>
+                <div class='card2'>
+                    <img class='project-img' src="./assets/images/techBlog.png"  alt='techBlog'>
+                    <a href="https://fast-plateau-75151.herokuapp.com/"><img class='coin' src='./assets/images/coin.png' height='50' width='50'></a>
                     <div class='coin-text'>Tech Blog</div>
                 </div>
 
-                <div>
-                    <a href="https://vast-eyrie-51403.herokuapp.com/"><img src='./assets/images/coin.png' height='110'
-                            width='125'></a>
+                <div class='card2'>
+                    <img class='project-img' src="./assets/images/NFLbets.png"  alt='NFLbets'>
+                    <a href="https://vast-eyrie-51403.herokuapp.com/"><img src='./assets/images/coin.png' height='50' width='50'></a>
                     <div class='coin-text'>NFL Bets</div>
                 </div>
 
-                <div>
-                    <a href="https://shobes572.github.io/Whats_Streamin/"><img src='./assets/images/coin.png'
-                            height='110' width='125'></a>
+                <div class='card2'>
+                    <img class='project-img' src="./assets/images/streamin.png"  alt='Whats_Streamin'>
+                    <a href="https://shobes572.github.io/Whats_Streamin/"><img src='./assets/images/coin.png' height='50' width='50'></a>
                     <div class='coin-text'>What's Streamin'</div>
                 </div>
 
-
-
+                <div class='card2'>
+                    <img class='project-img' src="./assets/images/quiz.png"  alt='quiz'>
+                    <a href=" https://ktmac21.github.io/java-quiz/"><img src='./assets/images/coin.png' height='50' width='50'></a>
+                    <div class='coin-text'>Javascript Quiz</div>
+                </div>
             </div>
-
 
         </section>
+
+
     </main>
 
+    <h2>Connect</h2>
+
     <footer class="page-footer">
+        
+        
+        
+        <ul class='container3'>
+            
+            <li class='padding'><a href="https://github.com/ktmac21"><i class="fab fa-github fa-2x"></i></a></li>
+        
+            <li class='padding'><a href="tel:2676700941"><i class="material-icons">call</i></a></li>
+            
+            <li class='padding'><a href="https://www.linkedin.com/in/kate-eagles"><i class="fab fa-linkedin fa-2x"></i></a></li>
+            
+            <li><a href="mailto:kteagles21@gmail.com"><i class="material-icons">email</i></a></li>
+        </ul>
 
-        <div id='contact-me' class='container'>
-            <div class='row'>
-                <h5 class='center-align'>Connect</h5>
-                <ul class="center inline">
-                    <li><a href="https://www.linkedin.com/in/kate-eagles"><i class="fab fa-linkedin fa-2x"></i></a>
-                    </li>
-                    <li><a href="tel:2676700941"><i class="material-icons">call</i></a>
-                    </li>
-                    <li><a href="https://github.com/ktmac21"><i class="fab fa-github fa-2x"></i></a></li>
-                    <li><a href="mailto:kteagles21@gmail.com"><i class="material-icons">email</i></a></li>
-                </ul>
-            </div>
-        </div>
 
-        <div class="eagles-color center">
-
-            <div class="container center">
-                <img src="./assets/images/mushroom.png" height='14' width='14' alt='mushroom'> 2021 Eagles Designs
-            </div>
-        </div>
     </footer>
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <div class="eagles-color">
+        <div class='container4'>
+            <img class='pipe2' src="./assets/images/pipe.png" height='75' width='75' alt='pipe'>
+        </div>
+        <img src="./assets/images/mushroom.png" height='14' width='14' alt='mushroom'> 2021 Eagles Designs
+    </div>
+
+
+
+
     <script src="./script.js"></script>
 
 
