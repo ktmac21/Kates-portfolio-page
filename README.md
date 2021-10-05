@@ -18,7 +18,8 @@ Welcome to my project page. This was one of my first assignments, however it has
 This was my first real attempt at implementing my knowledge of HTML and CSS. Since this project was first assigned I have learned Javascript and a few CSS frameworks. I recently updated the styling with Materialize and added my most recent projects. I also tried out a little CSS animation! 
 
 
-https://user-images.githubusercontent.com/83046421/134783806-a6702d7a-d96f-4d80-847d-8d6b8618bafa.mp4
+https://user-images.githubusercontent.com/83046421/136081611-d3519507-5920-4aea-85a7-9d502976db6a.mp4
+
 
 ## Link:
 
