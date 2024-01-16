@@ -16,7 +16,7 @@
 
 Professional project page displaying my recent projects, contact links, and resume. 
 
-https://github.com/ktmac21/Kates-portfolio-page/blob/master/assets/images/screenShot.jpg
+![projects](https://github.com/ktmac21/Kates-portfolio-page/blob/master/assets/images/screenShot.jpg)
 
 ## Link:
 
