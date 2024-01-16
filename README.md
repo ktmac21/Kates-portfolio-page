@@ -14,9 +14,7 @@
 
 ## Description 
 
-Welcome to my project page. This was one of my first assignments, however it has since been refactored and restyled as my skills have grown over the course of bootcamp. The goal was to make a professional project page where I can display my projects to potential employers. Also included are my contact links and resume.
-This was my first real attempt at implementing my knowledge of HTML and CSS. Since this project was first assigned I have learned Javascript and a few CSS frameworks. I recently updated the styling and added my most recent projects. I also tried out a little CSS animation! 
-
+Professional project page displaying my recent projects, contact links, and resume. 
 
 https://user-images.githubusercontent.com/83046421/136081611-d3519507-5920-4aea-85a7-9d502976db6a.mp4
 
