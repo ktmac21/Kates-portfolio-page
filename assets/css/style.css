@@ -311,12 +311,7 @@ ul {
   h2 {
     font-size: 30px;
   }
-
-  .container3 {
-    flex-direction: column;
-    align-items: center;
-  }
-
+  
   .mario-me,
   .shell {
     transform: scale(0.8);
