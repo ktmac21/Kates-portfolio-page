@@ -6,12 +6,13 @@
 body {
   background-color: rgb(212, 211, 211);
   margin: 0px; 
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 header {
   margin-top: 0px; 
   height: 100px; 
-  width: 100vw; 
+  width: 100%; /* Change from 100vw to 100% */
   background-color: rgb(193, 235, 252); 
   
 
@@ -78,7 +79,7 @@ h3 {
 .road {
    
   height: 100px; 
-  width: 100vw; 
+  width: 100%; /* Change from 100vw to 100% */
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   background-color: grey;
@@ -90,7 +91,7 @@ h3 {
   
   border-bottom: 3px dashed white;
   height: 50px; 
-  width: 100vw; 
+  width: 100%; /* Change from 100vw to 100% */
   position: absolute;
   box-shadow: 0 0 15px 0;
 }
@@ -292,10 +293,10 @@ ul {
     font-size: 40px;
   }
 
-  .container3 {
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+  .container {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
   }
 
   .project-description {
@@ -324,10 +325,15 @@ ul {
     font-size: 28px;
   }
 
-  .container3 {
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+  .container {
+    width: 100%;
+    padding: 0 5px;
+    box-sizing: border-box;
+  }
+
+  .container4 {
+    padding-top: 50px;
+    justify-content: space-evenly;
   }
 
   .mario-me,
@@ -344,6 +350,16 @@ ul {
   .clouds {
     left: 15px;
     transform: scale(0.7);
+  }
+
+  @keyframes drive {
+    from { transform: translateX(-50px) scale(0.7); }
+    to { transform: translateX(calc(100vw - 50px)) scale(0.7); }
+  }
+
+  @keyframes float {
+    from { transform: translateX(50px) scale(0.7); }
+    to { transform: translateX(calc(100vw - 100px)) scale(0.7); }
   }
 
   .project-description {
