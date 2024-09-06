@@ -259,8 +259,6 @@ ul {
   .card2 {
     width: 50%;
     height: 600px; 
-
-    
   }
 
   .card {
@@ -272,54 +270,67 @@ ul {
   h2 {
     font-size: 50px; 
   }
-
 }
 
-@media screen and (max-width: 850px) {
-  .card {
-    width: 85%; 
-    height: 550px;
-    font-size: 15px; 
-  }
-
+/* Tablet screens */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .card2 {
-  width: 85%;
-  height: 400px;
-  font-size: 15px;
+    width: 70%;
+    height: 500px;
   }
 
+  .card {
+    width: 80%;
+    height: 450px;
+  }
+
+  h1,
   h2 {
-    font-size: 20px; 
-    text-align: center;
+    font-size: 40px;
   }
 
-  h3 {
-    font-size: 15px;
+  .container3 {
+    flex-direction: column;
+    align-items: center;
   }
-
-  .pipe {
-    width: 50px;
-    height: 50px; 
-    padding-right: 10px; 
-    margin-top: -30px;
-  }
-
-  .pipe2 {
-    width: 50px;
-    height: 50px; 
-    padding-right: 0px; 
-    margin-top: -42px;
-  }
-
-  .container4 {
-    justify-content: flex-start;
-    
-  }
-
-  .project-img {
-    height: 70%;
-  }
-  
-
-  
 }
+
+/* Phone screens */
+@media screen and (max-width: 767px) {
+  .card2 {
+    width: 90%;
+    height: 400px;
+  }
+
+  .card {
+    width: 95%;
+    height: 500px;
+  }
+
+  h1,
+  h2 {
+    font-size: 30px;
+  }
+
+  .container3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mario-me,
+  .shell {
+    transform: scale(0.8);
+  }
+
+  .pipe,
+  .pipe2 {
+    transform: scale(0.8);
+    padding-right: 20px;
+  }
+
+  .clouds {
+    left: 20px;
+    transform: scale(0.8);
+  }
+}
+
