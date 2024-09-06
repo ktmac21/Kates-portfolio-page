@@ -318,6 +318,7 @@ ul {
   h1,
   h2 {
     font-size: 28px;
+    text-align: center;
   }
 
   .header-container {
