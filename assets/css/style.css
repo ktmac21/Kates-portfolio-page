@@ -51,23 +51,18 @@ h3 {
 }
 
 
-.container { 
-  
+.header-container { 
   display: flex;
   flex-direction: column; 
   justify-content: center;
-  
-     
 }
 
 
-.container1 {
+.animation-container {
   height: 50px;
   background-color: green;
   display: flex;
   justify-content: end; 
- 
-  
 }
 
 .pipe {
@@ -147,14 +142,14 @@ h3 {
     
 } 
 
-.container2 {
+.projects-container, .about-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 
-.card {
+.about-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -172,12 +167,12 @@ h3 {
   
 
 }
-.card2 {
+.project-card {
   text-align: center;
   border-radius: 5px;
   background-color: rgb(255, 244, 244);
   color: black;
-  height: 400px; 
+  height: 500px; 
   width: 55%; 
   margin-left: 20px;
   margin-right: 20px;
@@ -222,13 +217,13 @@ ul {
   
 }
 
-.container3 {
+.contacts-container {
   display: flex;
   flex-direction: row;
   justify-content:space-evenly;
 }
 
-.container4 {
+.footer-container {
   display: flex;
   justify-content: end;
 }
@@ -257,12 +252,12 @@ ul {
 
 
 @media screen and (min-width: 1200px) {
-  .card2 {
+  .project-card {
     width: 50%;
     height: 600px; 
   }
 
-  .card {
+  .about-card {
     width: 40%; 
     height: 400px; 
   }
@@ -275,14 +270,14 @@ ul {
 
 /* Tablet screens */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .card2 {
+  .project-card {
     width: 80%;
     height: auto;
     min-height: 450px;
     margin-bottom: 20px;
   }
 
-  .card {
+  .about-card {
     width: 80%;
     height: auto;
     min-height: 400px;
@@ -307,15 +302,15 @@ ul {
 
 /* Phone screens */
 @media screen and (max-width: 767px) {
-  .card2 {
+  .project-card {
     width: 95%;
     height: auto;
     min-height: 350px;
     margin-bottom: 20px;
   }
 
-  .card {
-    width: 95%;
+  .about-card {
+    width: 85%;
     height: auto;
     min-height: 450px;
   }
@@ -325,13 +320,13 @@ ul {
     font-size: 28px;
   }
 
-  .container {
+  .header-container {
     width: 100%;
     padding: 0 5px;
     box-sizing: border-box;
   }
 
-  .container4 {
+  .footer-container {
     padding-top: 50px;
     justify-content: space-evenly;
   }
