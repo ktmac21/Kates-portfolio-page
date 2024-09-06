@@ -1,42 +1,29 @@
 * {
-  
   font-family: 'Space Mono', sans-serif;
 }
-
 body {
   background-color: rgb(212, 211, 211);
   margin: 0px; 
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-x: hidden;
 }
-
 header {
   margin-top: 0px; 
   height: 100px; 
-  width: 100%; /* Change from 100vw to 100% */
+  width: 100%;
   background-color: rgb(193, 235, 252); 
-  
-
 }
-
 h1 {
-
   margin-top: 0px;
   text-align: center;
-
 }
-
 h3 {
-
   margin-top: 0px;
   text-align: center;
- 
 }
- h2 {
-   margin-left: 20px; 
- }
-
-
- .clouds {
+h2 {
+  margin-left: 20px; 
+}
+.clouds {
   position: absolute;
   left: 80px; 
   margin-top: -20px; 
@@ -47,68 +34,50 @@ h3 {
   animation-direction:alternate;
   animation-timing-function: linear;
   background-color: transparent;
-  
 }
-
-
 .header-container { 
   display: flex;
   flex-direction: column; 
   justify-content: center;
 }
-
-
 .animation-container {
   height: 50px;
   background-color: green;
   display: flex;
   justify-content: end; 
 }
-
 .pipe {
   position: absolute;
   padding-right: 50px;
   margin-top: -50px; 
 }
-
 .road {
-   
   height: 100px; 
-  width: 100%; /* Change from 100vw to 100% */
+  width: 100%;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   background-color: grey;
   box-shadow: 0 0 15px 0;
-
 }
-
 .line {
-  
   border-bottom: 3px dashed white;
   height: 50px; 
-  width: 100%; /* Change from 100vw to 100% */
+  width: 100%;
   position: absolute;
   box-shadow: 0 0 15px 0;
 }
-
-
-
 .mario-me {
-  
   position: absolute;
   top: 110px;
-  left:   0px;   
+  left: 0px;   
   animation-name: drive;
   animation-duration: 8s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   animation-direction: forward;
   animation-timing-function: linear;
-   
 }
-
- .shell { 
-   
+.shell { 
   position: absolute;
   top: 150px; 
   left: 0px; 
@@ -119,42 +88,32 @@ h3 {
   animation-direction: forward;
   animation-timing-function: linear;
 }
-
-
-@keyframes float{
-  from{ transform: translateX(100px)}
-  to{ transform: translate(300px)}
-    
+@keyframes float {
+  from { transform: translateX(100px) }
+  to { transform: translate(300px) }
 }
-    
-@keyframes drive{
-  from{ transform: translateX(-100px)}
-  to{ transform: translateX(1200px)}
-
+@keyframes drive {
+  from { transform: translateX(-100px) }
+  to { transform: translateX(1200px) }
 }
-
 .resume {
   text-align: center;
   color: black;
   font-size: 15px;
   text-decoration: underline;
   margin-top: 20px;
-    
-} 
-
+}
 .projects-container, .about-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-
 .about-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: justify;
-  border:black solid 3px;
+  border: black solid 3px;
   border-radius: 8px;
   background-color: white;
   padding: 5px 20px 5px 20px; 
@@ -164,210 +123,144 @@ h3 {
   height: 425px; 
   color: black;
   box-shadow: 0px 0px 10px 2px;
-  
-
 }
 .project-card {
   text-align: center;
   border-radius: 5px;
   background-color: rgb(255, 244, 244);
   color: black;
-  height: 500px; 
-  width: 55%; 
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px; 
-  margin-top: 20px;
-  padding: 2px 2px 2px 2px;
+  height: 700px; 
+  width: 80%; 
+  margin: 20px 20px; 
+  padding: 2px;
   box-shadow: 0 0 10px 2px;
-  
-  
-  
-
 }
 .project-img {
   border-radius: 3px;
   width: 100%;
   height: 75%; 
 }
-
-
 .coin-text {
-  
   text-align: center;
 }
-
 a {
-  
   color: black; 
   text-align: center;
 } 
-
 ul {
-  
   list-style-type: none;
 }
-
 .page-footer {
-
   border: solid black 2px;
   background-color: grey;
   box-shadow: 0px 0px 15px 0px;
   color: black;
-  
 }
-
 .contacts-container {
   display: flex;
   flex-direction: row;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 }
-
 .footer-container {
   display: flex;
   justify-content: end;
 }
-
-
 .pipe2 {
   position: absolute;
   margin-top: -62px;
   padding-right: 50px;
-
 }
-
 .padding {
   padding-right: 20px; 
 }
-
-
 .eagles-color {
-  
   text-align: center;
   color: black;
   background-color: green;
   box-shadow: 0 0 15px 0;
-  
 }
-
-
 @media screen and (min-width: 1200px) {
   .project-card {
     width: 50%;
-    height: 600px; 
-  }
-
-  .about-card {
-    width: 40%; 
-    height: 400px; 
-  }
-
-  h1,
-  h2 {
-    font-size: 50px; 
-  }
-}
-
-/* Tablet screens */
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .project-card {
-    width: 80%;
     height: auto;
     min-height: 450px;
     margin-bottom: 20px;
   }
-
   .about-card {
-    width: 80%;
+    width: 40%;
     height: auto;
     min-height: 400px;
   }
-
-  h1,
-  h2 {
-    font-size: 40px;
+  h1, h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
   }
-
+  h3 {
+    font-size: 30px;
+  }
   .header-container {
     width: 100%;
     padding: 0 10px;
     box-sizing: border-box;
   }
-
   .project-description {
     font-size: 14px;
     padding: 10px;
   }
 }
-
-/* Phone screens */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   .project-card {
     width: 95%;
     height: auto;
     min-height: 350px;
     margin-bottom: 20px;
   }
-
   .about-card {
     width: 85%;
     height: auto;
     min-height: 450px;
   }
-
-  h1,
-  h2 {
+  h1, h2 {
     font-size: 28px;
     text-align: center;
   }
-
   .header-container {
     width: 100%;
     padding: 0 5px;
     box-sizing: border-box;
   }
-
   .footer-container {
     padding-top: 50px;
     justify-content: space-evenly;
   }
-
-  .mario-me,
-  .shell {
+  .mario-me, .shell {
     transform: scale(0.7);
   }
-
   .pipe {
     transform: scale(0.7);
     padding-right: 15px;
     margin-top: -5px;
   }
-
   .pipe2 {
     transform: scale(0.7);
     padding-right: 15px;
   }
-
   .clouds {
     left: 15px;
     transform: scale(0.7);
   }
-
   @keyframes drive {
     from { transform: translateX(-50px) scale(0.7); }
     to { transform: translateX(calc(100vw - 50px)) scale(0.7); }
   }
-
   @keyframes float {
     from { transform: translateX(50px) scale(0.7); }
     to { transform: translateX(calc(100vw - 100px)) scale(0.7); }
   }
-
   .project-description {
     font-size: 13px;
     padding: 8px;
   }
-
   .project-img {
     max-height: 200px;
     object-fit: cover;
