@@ -275,13 +275,16 @@ ul {
 /* Tablet screens */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .card2 {
-    width: 70%;
-    height: 500px;
+    width: 80%;
+    height: auto;
+    min-height: 450px;
+    margin-bottom: 20px;
   }
 
   .card {
     width: 80%;
-    height: 450px;
+    height: auto;
+    min-height: 400px;
   }
 
   h1,
@@ -290,42 +293,67 @@ ul {
   }
 
   .container3 {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .project-description {
+    font-size: 14px;
+    padding: 10px;
   }
 }
 
 /* Phone screens */
 @media screen and (max-width: 767px) {
   .card2 {
-    width: 90%;
-    height: 400px;
+    width: 95%;
+    height: auto;
+    min-height: 350px;
+    margin-bottom: 20px;
   }
 
   .card {
     width: 95%;
-    height: 500px;
+    height: auto;
+    min-height: 450px;
   }
 
   h1,
   h2 {
-    font-size: 30px;
+    font-size: 28px;
   }
-  
+
+  .container3 {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
   .mario-me,
   .shell {
-    transform: scale(0.8);
+    transform: scale(0.7);
   }
 
   .pipe,
   .pipe2 {
-    transform: scale(0.8);
-    padding-right: 20px;
+    transform: scale(0.7);
+    padding-right: 15px;
   }
 
   .clouds {
-    left: 20px;
-    transform: scale(0.8);
+    left: 15px;
+    transform: scale(0.7);
+  }
+
+  .project-description {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .project-img {
+    max-height: 200px;
+    object-fit: cover;
   }
 }
 
