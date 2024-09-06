@@ -341,7 +341,12 @@ ul {
     transform: scale(0.7);
   }
 
-  .pipe,
+  .pipe {
+    transform: scale(0.7);
+    padding-right: 15px;
+    margin-top: -5px;
+  }
+
   .pipe2 {
     transform: scale(0.7);
     padding-right: 15px;
